@@ -1,0 +1,68 @@
+[INFO|protocol.py:53] 2019-07-26 21:27:58,672 > Protocol : wifi, ID: GS-123 found
+[INFO|protocol.py:53] 2019-07-26 21:27:58,672 > Protocol : wifi, ID: GS-456 found
+[INFO|protocol.py:53] 2019-07-26 21:27:58,672 > Protocol : z-wave, ID: ZS-456 found
+[INFO|protocol.py:62] 2019-07-26 21:27:58,672 > GS-123 send packet to GS-456. data: test1
+[INFO|protocol.py:61] 2019-07-26 21:27:58,672 > Error, Protocol is not same. Fail to sending packet
+[INFO|protocol.py:62] 2019-07-26 21:27:58,672 > GS-456 send packet to ZS-456. data: test2
+[INFO|protocol.py:53] 2019-07-26 21:29:03,619 > Protocol : wifi, ID: GS-123 found
+[INFO|protocol.py:53] 2019-07-26 21:29:03,619 > Protocol : wifi, ID: GS-456 found
+[INFO|protocol.py:53] 2019-07-26 21:29:03,619 > Protocol : z-wave, ID: ZS-456 found
+[INFO|protocol.py:62] 2019-07-26 21:29:03,619 > GS-123 send packet to GS-456. data: test1
+[INFO|protocol.py:53] 2019-07-26 21:29:13,873 > Protocol : wifi, ID: GS-123 found
+[INFO|protocol.py:53] 2019-07-26 21:29:13,873 > Protocol : wifi, ID: GS-456 found
+[INFO|protocol.py:53] 2019-07-26 21:29:13,873 > Protocol : z-wave, ID: ZS-456 found
+[INFO|protocol.py:62] 2019-07-26 21:29:13,873 > GS-123 send packet to GS-456. data: test1
+[ERROR|protocol.py:61] 2019-07-26 21:29:13,873 > Error, Protocol is not same. Fail to sending packet
+[INFO|protocol.py:62] 2019-07-26 21:29:13,873 > GS-456 send packet to ZS-456. data: test2
+[INFO|protocol.py:54] 2019-07-26 21:37:20,265 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:54] 2019-07-26 21:37:20,266 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:54] 2019-07-26 21:37:20,266 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:63] 2019-07-26 21:37:20,266 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:54] 2019-07-26 21:38:04,088 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:54] 2019-07-26 21:38:04,088 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:54] 2019-07-26 21:38:04,088 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:63] 2019-07-26 21:38:04,089 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:54] 2019-07-26 21:38:05,195 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:54] 2019-07-26 21:38:05,195 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:54] 2019-07-26 21:38:05,196 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:63] 2019-07-26 21:38:05,196 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:54] 2019-07-26 21:38:37,138 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:54] 2019-07-26 21:38:37,139 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:54] 2019-07-26 21:38:37,139 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:63] 2019-07-26 21:38:37,139 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:67] 2019-07-26 21:38:37,139 > 122.123.131.231 receivePacket from src ip: 112.113.111.131. data: test1
+[ERROR|protocol.py:62] 2019-07-26 21:38:37,139 > Error, Protocol is not same. Fail to sending packet
+[INFO|protocol.py:63] 2019-07-26 21:38:37,139 > src ip: 122.123.131.231 send packet to dst ip: 212.123.211.132. data: test2
+[INFO|protocol.py:67] 2019-07-26 21:38:37,139 > 212.123.211.132 receivePacket from src ip: 122.123.131.231. data: test2
+[INFO|protocol.py:54] 2019-07-26 21:39:59,980 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:54] 2019-07-26 21:39:59,980 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:54] 2019-07-26 21:39:59,980 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:63] 2019-07-26 21:39:59,981 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:67] 2019-07-26 21:39:59,981 > 122.123.131.231 receive packet from src ip: 112.113.111.131. data: test1
+[ERROR|protocol.py:62] 2019-07-26 21:39:59,981 > Error, Protocol is not same. Fail to sending packet
+[INFO|protocol.py:63] 2019-07-26 21:39:59,981 > src ip: 122.123.131.231 send packet to dst ip: 212.123.211.132. data: test2
+[INFO|protocol.py:67] 2019-07-26 21:39:59,981 > 212.123.211.132 receive packet from src ip: 122.123.131.231. data: test2
+[INFO|protocol.py:47] 2019-07-27 02:15:33,258 > Protocol : wifi, IP: 112.113.111.131 found
+[INFO|protocol.py:47] 2019-07-27 02:15:33,259 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:47] 2019-07-27 02:15:33,259 > Protocol : wifi, IP: 122.123.131.231 found
+[INFO|protocol.py:47] 2019-07-27 02:15:33,259 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:47] 2019-07-27 02:15:33,259 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:47] 2019-07-27 02:15:33,259 > Protocol : z-wave, IP: 212.123.211.132 found
+[INFO|protocol.py:56] 2019-07-27 02:15:33,259 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:56] 2019-07-27 02:15:33,259 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:56] 2019-07-27 02:15:33,259 > src ip: 112.113.111.131 send packet to dst ip: 122.123.131.231. data: test1
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 122.123.131.231 receive packet from src ip: 112.113.111.131. data: test1
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 122.123.131.231 receive packet from src ip: 112.113.111.131. data: test1
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 122.123.131.231 receive packet from src ip: 112.113.111.131. data: test1
+[ERROR|protocol.py:55] 2019-07-27 02:15:33,260 > Error, Protocol is not same. Fail to sending packet
+[ERROR|protocol.py:55] 2019-07-27 02:15:33,260 > Error, Protocol is not same. Fail to sending packet
+[ERROR|protocol.py:55] 2019-07-27 02:15:33,260 > Error, Protocol is not same. Fail to sending packet
+[INFO|protocol.py:56] 2019-07-27 02:15:33,260 > src ip: 122.123.131.231 send packet to dst ip: 212.123.211.132. data: test2
+[INFO|protocol.py:56] 2019-07-27 02:15:33,260 > src ip: 122.123.131.231 send packet to dst ip: 212.123.211.132. data: test2
+[INFO|protocol.py:56] 2019-07-27 02:15:33,260 > src ip: 122.123.131.231 send packet to dst ip: 212.123.211.132. data: test2
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 212.123.211.132 receive packet from src ip: 122.123.131.231. data: test2
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 212.123.211.132 receive packet from src ip: 122.123.131.231. data: test2
+[INFO|protocol.py:60] 2019-07-27 02:15:33,260 > 212.123.211.132 receive packet from src ip: 122.123.131.231. data: test2
+[INFO|protocol.py:47] 2019-07-27 05:19:05,632 > Protocol : wifi, IP: 123.222.112.113 found
+[INFO|protocol.py:47] 2019-07-27 05:19:11,617 > Protocol : wifi, IP: 123.222.112.113 found
+[INFO|protocol.py:47] 2019-07-27 05:21:45,174 > Protocol : bluetooth, IP: 123.221.131.111 found
